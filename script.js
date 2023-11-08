@@ -11,7 +11,7 @@ let eight = document.getElementById("8")
 let nign = document.getElementById("9")
 let del = document.getElementById("DEL")
 let plus = document.getElementById("+")
-
+let dot = document.getElementById(".")
 let divi = document.getElementById("/")
 let x = document.getElementById("X")
 let reset = document.getElementById("RESET")
@@ -131,6 +131,11 @@ divi.addEventListener("click", ()=>{
         result.innerText = numF
     })
 
+})
+
+dot.addEventListener("click", ()=>{
+    
+    result.innerText = "."
 })
 
 x.addEventListener("click", ()=>{
